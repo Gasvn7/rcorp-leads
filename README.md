@@ -25,7 +25,7 @@ npm install # or yarn install
 cd backend
 npm install # or yarn install
 ```
-Configure your credentials:
+Configure your credentials for MySQL:
 - Open the file `backend/routes/leads.routes.js`
 - Update the database connection with your own credentials:
 ```bash
