@@ -7,7 +7,7 @@ Developed with React and Node.js (Express)
 ### 1. GitClone the repository
 ```bash
 git clone https://github.com/Gasvn7/rcorp-leads.git
-cd rcopr-leads
+cd rcorp-leads
 ```
 
 ### 2. Import the Database
