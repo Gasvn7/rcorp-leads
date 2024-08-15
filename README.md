@@ -25,6 +25,17 @@ npm install # or yarn install
 cd backend
 npm install # or yarn install
 ```
+Configure your credentials:
+- Open the file `backend/routes/leads.routes.js`
+- Update the database connection with your own credentials:
+```bash
+const db = mysql.createConnection({
+  host: process.env.DB_HOST, # Replace with your MySQL host
+  user: process.env.DB_USER, # Replace with your MySQL username
+  password: process.env.DB_PASSWORD, # Replace with your MySQL password
+  database: process.env.DB_NAME # Replace with the name of the imported db or the name you used
+});
+```
 
 ## Running the Application
 
